@@ -23,12 +23,16 @@ class HomeView extends StatelessWidget {
           ),
         ),
         drawer: Drawer(),
+        floatingActionButton: FloatingActionButton(
+          onPressed: viewModel.onAddButtonTap,
+          child: Icon(Icons.add),
+        ),
         body: ListView.builder(
           itemCount: viewModel.contacts.length,
-          itemBuilder: (element, index) {
+          itemBuilder: (context, index) {
             final contact = viewModel.contacts[index];
             return ListTile(
-              onTap: () => {},
+              onTap: () => viewModel.onContactTap(contact),
               contentPadding: EdgeInsets.only(left: 30),
               leading: CircleAvatar(
                 child: Text(contact.initials),

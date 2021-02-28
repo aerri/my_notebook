@@ -8,4 +8,5 @@ class ContactViewModel extends BaseViewModel {
 
   String get name => _contact?.name ?? " ";
   String get initials => _contact.name.isNotEmpty ? _contact.name[0] : " ";
+  List<String> get phones => _contact.phones;
 }
