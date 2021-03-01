@@ -12,7 +12,7 @@ class HomeView extends StatelessWidget {
       initialiseSpecialViewModelsOnce: true,
       disposeViewModel: false,
       viewModelBuilder: () => locator<HomeViewModel>(),
-      onModelReady: (model) => model.init(),
+      onModelReady: (model) => model.initialize(),
       builder: (context, viewModel, child) => Scaffold(
         appBar: AppBar(
           title: TextField(
@@ -28,7 +28,7 @@ class HomeView extends StatelessWidget {
           child: Icon(Icons.add),
         ),
         body: ListView.builder(
-          itemCount: viewModel.contacts.length,
+          itemCount: viewModel.contacts != null ? viewModel.contacts.length : 0,
           itemBuilder: (context, index) {
             final contact = viewModel.contacts[index];
             return ListTile(

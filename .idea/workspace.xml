@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="350ec3cf-2eac-4c5b-9184-ca0c36fe2e3c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/lib/app/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/app.locator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/app.locator.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/app.router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/app.router.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/address.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/address.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/contact.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/contact.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/view_models/add_edit_contact_view_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/view_models/add_contact_view_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/view_models/contact_view_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/view_models/contact_view_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/view_models/home_view_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/view_models/home_view_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/views/add_edit_contact_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/add_contact_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/views/contact_detail_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/contact_detail_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/views/home_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/home_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[L3AXB600X303FZA]" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="stateless_widget" />
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ozuqRwdQtMFmac1OuUEzi6fBW5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.4045977" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="350ec3cf-2eac-4c5b-9184-ca0c36fe2e3c" name="Default Changelist" comment="" />
+      <created>1614301930348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614301930348</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614445133657">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1614445133657" />
+    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614462946775">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1614462946775" />
+    <state x="192" y="28" width="1074" height="690" key="DBNavigator.ProjectSettingsDialog" timestamp="1614564676842">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="192" y="28" width="1074" height="690" key="DBNavigator.ProjectSettingsDialog/0.0.1366.768@0.0.1366.768" timestamp="1614564676842" />
+    <state width="432" height="466" key="DebuggerActiveHint" timestamp="1614475291416">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="432" height="466" key="DebuggerActiveHint/0.0.1366.768@0.0.1366.768" timestamp="1614475291416" />
+    <state width="1323" height="190" key="GridCell.Tab.0.bottom" timestamp="1614565698550">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1614565698550" />
+    <state width="1323" height="190" key="GridCell.Tab.0.center" timestamp="1614565698550">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1614565698550" />
+    <state width="1323" height="190" key="GridCell.Tab.0.left" timestamp="1614565698550">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1614565698550" />
+    <state width="1323" height="190" key="GridCell.Tab.0.right" timestamp="1614565698550">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1614565698550" />
+    <state width="1323" height="190" key="GridCell.Tab.1.bottom" timestamp="1614565698550">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1614565698550" />
+    <state width="1323" height="190" key="GridCell.Tab.1.center" timestamp="1614565698550">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1614565698550" />
+    <state width="1323" height="190" key="GridCell.Tab.1.left" timestamp="1614565698550">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1614565698550" />
+    <state width="1323" height="190" key="GridCell.Tab.1.right" timestamp="1614565698550">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1614565698550" />
+    <state x="131" y="33" width="1150" height="667" key="IDE.errors.dialog" timestamp="1614447300688">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="131" y="33" width="1150" height="667" key="IDE.errors.dialog/0.0.1366.768@0.0.1366.768" timestamp="1614447300688" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1614554686370">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1614554686370" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1614564075160">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1614564075160" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1614561742276">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1614561742276" />
+  </component>
+</project>
