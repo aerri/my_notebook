@@ -1,4 +1,4 @@
-# my_notebook
+# My Notebook
 
 Nucleos flutter challenge application.
 
@@ -14,3 +14,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Instruções
+A solução está em formato padrão de aplicação flutter, sendo possível ser aberta no Android Studio ou Visual Studio Code e esperar que os plugins sejam atualizados.
