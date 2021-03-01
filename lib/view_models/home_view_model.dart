@@ -13,12 +13,15 @@ class HomeViewModel extends BaseViewModel {
   final _databaseService = locator<DatabaseService>();
 
   Future initialize() async {
-    await _databaseService.initialize();
-    var contactsFromDb = await _databaseService.getContacts();
-    contacts = <ContactViewModel>[];
-    contactsFromDb
-        .forEach((element) => contacts.add(ContactViewModel(element)));
-    notifyListeners();
+    if (!initialised) {
+      await _databaseService.initialize();
+      var contactsFromDb = await _databaseService.getContacts();
+      contacts = <ContactViewModel>[];
+      contactsFromDb
+          .forEach((element) => contacts.add(ContactViewModel(element)));
+      setInitialised(true);
+      notifyListeners();
+    }
   }
 
   Future onAddButtonTap() async =>

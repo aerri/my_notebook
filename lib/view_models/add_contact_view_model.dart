@@ -2,6 +2,7 @@ import 'package:my_notebook/app/app.locator.dart';
 import 'package:my_notebook/app/app.router.dart';
 import 'package:my_notebook/models/contact.dart';
 import 'package:my_notebook/services/database_service.dart';
+import 'package:my_notebook/view_models/contact_view_model.dart';
 import 'package:my_notebook/view_models/home_view_model.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
@@ -40,6 +41,7 @@ class AddContactViewModel extends BaseViewModel {
     notifyListeners();
   }
 
+  //TODO: Need to ajust this call so it can manage one to many relationship and insert null values
   Future addContact() async {
     var phones = [_firstPhone];
     if (_secondPhone != null && _secondPhone.isNotEmpty)
@@ -47,7 +49,11 @@ class AddContactViewModel extends BaseViewModel {
     var contact = Contact(_name, phones);
     if (_email != null && _email.isNotEmpty) contact.email = _email;
     await _databaseService.addContact(contact);
-    await _navigationService.navigateTo(Routes.homeView);
-    locator<HomeViewModel>().notifyListeners();
+    var homeViewModel = locator<HomeViewModel>();
+    var viewModel = ContactViewModel(contact);
+    homeViewModel.contacts.add(viewModel);
+    await _navigationService
+        .navigateTo(Routes.homeView)
+        .then((value) => homeViewModel.notifyListeners());
   }
 }

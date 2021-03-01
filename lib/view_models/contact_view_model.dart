@@ -12,7 +12,8 @@ class ContactViewModel extends BaseViewModel {
 
   String get name => _contact?.name ?? " ";
 
-  String get initials => _contact.name.isNotEmpty ? _contact.name[0] : " ";
+  String get initials =>
+      _contact.name.isNotEmpty ? _contact.name[0].toUpperCase() : " ";
 
   String get email => _contact?.email ?? " ";
 

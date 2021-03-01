@@ -16,104 +16,108 @@ class ContactDetailView extends StatelessWidget {
     return ViewModelBuilder.reactive(
       viewModelBuilder: () => contactViewModel,
       disposeViewModel: false,
-      builder: (context, viewModel, child) =>
-          Scaffold(
-            appBar: AppBar(
-              leading: IconButton(
-                icon: Icon(Icons.arrow_back),
-                onPressed: locator<NavigationService>().back,
-              ),
-            ),
-            body: contactViewModel.isEditing
-                ? Container(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  TextFormField(
-                    initialValue: contactViewModel.name,
-                    decoration: InputDecoration(
-                      hintText: "Name",
+      builder: (context, viewModel, child) => Scaffold(
+        appBar: AppBar(
+          leading: IconButton(
+            icon: Icon(Icons.arrow_back),
+            onPressed: locator<NavigationService>().back,
+          ),
+        ),
+        body: contactViewModel.isEditing
+            ? Container(
+                padding: EdgeInsets.only(left: 10, top: 10),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    TextFormField(
+                      initialValue: contactViewModel.name,
+                      decoration: InputDecoration(
+                        labelText: "Name",
+                      ),
                     ),
-                  ),
-                  TextFormField(
-                    initialValue: contactViewModel.email,
-                    decoration: InputDecoration(
-                      hintText: "Name",
+                    TextFormField(
+                      initialValue: contactViewModel.email,
+                      decoration: InputDecoration(
+                        labelText: "Email",
+                      ),
                     ),
-                  ),
-                  contactViewModel.phones.isEmpty
-                      ? Divider()
-                      : Column(
-                    children: [
-                      TextFormField(
-                        initialValue: contactViewModel.phones[0],
-                        decoration: InputDecoration(
-                          hintText: "Phone",
+                    contactViewModel.phones.isEmpty
+                        ? Divider()
+                        : Column(
+                            children: _buildTextFormFields(),
+                          ),
+                  ],
+                ),
+              )
+            : Container(
+                child: Column(
+                  children: [
+                    Container(
+                      padding: EdgeInsets.only(top: 20),
+                      child: CircleAvatar(
+                        minRadius: 100,
+                        child: Text(
+                          viewModel.initials,
+                          style: TextStyle(fontSize: 70),
                         ),
                       ),
-                      TextFormField(
-                        initialValue: contactViewModel.phones[1],
-                        decoration: InputDecoration(
-                          hintText: "Phone",
-                        ),
-                      ),
-                    ],
-                  )
-                ],
-              ),
-            )
-                : Container(
-              child: Column(
-                children: [
-                  Container(
-                    padding: EdgeInsets.only(top: 20),
-                    child: CircleAvatar(
-                      minRadius: 100,
+                    ),
+                    Container(
+                      alignment: Alignment.centerLeft,
+                      padding: EdgeInsets.only(top: 50, left: 20),
                       child: Text(
-                        viewModel.initials,
-                        style: TextStyle(fontSize: 70),
+                        viewModel.name,
+                        style: TextStyle(fontSize: 20),
                       ),
                     ),
-                  ),
-                  Container(
-                    alignment: Alignment.centerLeft,
-                    padding: EdgeInsets.only(top: 50, left: 20),
-                    child: Text(
-                      viewModel.name,
-                      style: TextStyle(fontSize: 20),
+                    Divider(),
+                    Column(
+                      children: _buildListTiles(),
                     ),
-                  ),
-                  Divider(),
-                  Column(
-                    children: contactViewModel.phones.isNotEmpty
-                        ? ([
-                      ListTile(
-                        leading: Icon(Icons.phone),
-                        title: Text(contactViewModel.phones[0]),
-                        subtitle: Text("Phone"),
-                      ),
-                      Divider(thickness: 3),
-                      ListTile(
-                        leading: Icon(Icons.phone),
-                        title: Text(contactViewModel.phones[1]),
-                        subtitle: Text("Phone"),
-                      ),
-                      Divider(thickness: 3),
-                    ])
-                        : Container(),
-                  ),
-                ],
+                  ],
+                ),
               ),
-            ),
-            floatingActionButton: FloatingActionButton.extended(
-              onPressed: contactViewModel.isEditing
-                  ? contactViewModel.onSaveContactButtonTap
-                  : contactViewModel.onEditContactButtonTap,
-              label:
+        floatingActionButton: FloatingActionButton.extended(
+          onPressed: contactViewModel.isEditing
+              ? contactViewModel.onSaveContactButtonTap
+              : contactViewModel.onEditContactButtonTap,
+          label:
               contactViewModel.isEditing ? Text("Save") : Text("Edit Contact"),
-              icon: Icon(Icons.edit),
+          icon: Icon(Icons.edit),
+        ),
+      ),
+    );
+  }
+
+  List<Widget> _buildTextFormFields() {
+    var items = <Widget>[];
+    if (contactViewModel.phones != null && contactViewModel.phones.isNotEmpty)
+      contactViewModel.phones.forEach((element) {
+        items.add(
+          TextFormField(
+            initialValue: element,
+            decoration: InputDecoration(
+              labelText: "Phone",
             ),
           ),
-    );
+        );
+      });
+    return items;
+  }
+
+  List<Widget> _buildListTiles() {
+    var items = <Widget>[];
+    if (contactViewModel.phones != null && contactViewModel.phones.isNotEmpty) {
+      contactViewModel.phones.forEach(
+        (element) {
+          items.add(ListTile(
+              leading: Icon(Icons.phone),
+              title: Text(element),
+              subtitle: Text("Phone")));
+          items.add(Divider(thickness: 3));
+        },
+      );
+    }
+    return items;
   }
 }

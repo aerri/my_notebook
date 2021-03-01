@@ -40,6 +40,7 @@ class DatabaseService {
     return result.map((address) => Address.fromMap(address)).toList();
   }
 
+  //TODO: Need to ajust this call so it can manage one to many relationship and insert null values
   Future addContact(Contact contact) async {
     try {
       await _database.insert(ContactsTableName, contact.toMap());

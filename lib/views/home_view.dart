@@ -9,7 +9,6 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ViewModelBuilder<HomeViewModel>.reactive(
-      initialiseSpecialViewModelsOnce: true,
       disposeViewModel: false,
       viewModelBuilder: () => locator<HomeViewModel>(),
       onModelReady: (model) => model.initialize(),
