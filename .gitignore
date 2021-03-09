@@ -13,7 +13,9 @@
 *.iml
 *.ipr
 *.iws
-
+*.idea
+!my_notebook.iml
+!.idea/modules.xml
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
@@ -29,7 +31,7 @@
 .pub-cache/
 .pub/
 /build/
-
+!.apk
 # Web related
 lib/generated_plugin_registrant.dart
 

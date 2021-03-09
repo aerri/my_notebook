@@ -1,3 +1,4 @@
+import 'package:my_notebook/services/database_service.dart';
 import 'package:my_notebook/view_models/home_view_model.dart';
 import 'package:my_notebook/views/add_contact_view.dart';
 import 'package:my_notebook/views/contact_detail_view.dart';
@@ -13,9 +14,9 @@ import 'package:stacked_services/stacked_services.dart';
   ],
   dependencies: [
     // Lazy singletons
-    LazySingleton(classType: HomeViewModel),
     LazySingleton(classType: NavigationService),
-
+    LazySingleton(classType: DatabaseService),
+    LazySingleton(classType: HomeViewModel),
     // singletons
   ],
 )

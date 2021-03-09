@@ -1,51 +1,44 @@
-import 'package:my_notebook/app/app.locator.dart';
+import 'package:my_notebook/daos/address_dao.dart';
+import 'package:my_notebook/daos/contact_dao.dart';
+import 'package:my_notebook/daos/phone_dao.dart';
 import 'package:my_notebook/models/address.dart';
 import 'package:my_notebook/models/contact.dart';
-import 'package:sqflite/sqflite.dart';
-import 'package:sqflite_migration_service/sqflite_migration_service.dart';
-
-const String DB_NAME = 'contacts_database.sqlite';
-const String ContactsTableName = 'contacts';
-const String PhonesTableName = 'phones';
-const String AddressesTableName = 'addresses';
+import 'package:my_notebook/models/phone.dart';
+// ignore: import_of_legacy_library_into_null_safe
+import 'package:sqfly/sqfly.dart';
 
 class DatabaseService {
-  Database _database;
-  final _migrationService = locator<DatabaseMigrationService>();
+  late Sqfly _database;
 
-  Future initialize() async {
-    _database =
-        await openDatabase(DB_NAME, version: 1, onConfigure: _onConfigure);
-
-    await _migrationService.runMigration(
-      _database,
-      migrationFiles: [
-        '1_create_schema.sql',
+  Future<void> initialize() async {
+    _database = await Sqfly(
+      version: 1,
+      logger: true,
+      daos: [
+        ContactDao(),
+        PhoneDao(),
+        AddressDao(),
       ],
-      verbose: true,
-    );
-  }
-
-  Future _onConfigure(Database db) async {
-    await db.execute("PRAGMA foreign_keys = ON");
+    ).init();
+    var phones = <Phone>[Phone(number: '99999999'), Phone(number: '00000000')];
+    var contact = Contact(name: 'João dos Testes', phones: phones);
+    print(contact.toMap());
+    await insertContact(contact);
   }
 
   Future<List<Contact>> getContacts() async {
-    List<Map> result = await _database.query(ContactsTableName);
-    return result.map((contact) => Contact.fromMap(contact)).toList();
+    return await _database<ContactDao>().includes([PhoneDao, AddressDao]).toList();
   }
 
   Future<List<Address>> getAdresses() async {
-    List<Map> result = await _database.query(AddressesTableName);
-    return result.map((address) => Address.fromMap(address)).toList();
+    return await _database<AddressDao>().toList();
   }
 
-  //TODO: Need to ajust this call so it can manage one to many relationship and insert null values
-  Future addContact(Contact contact) async {
-    try {
-      await _database.insert(ContactsTableName, contact.toMap());
-    } catch (e) {
-      print('Could not insert the contact: $e');
-    }
+  Future<List<Phone>> getPhones() async {
+    return await _database<PhoneDao>().toList();
+  }
+
+  Future<void> insertContact(Contact contact) async {
+    await _database<ContactDao>().create(contact);
   }
 }

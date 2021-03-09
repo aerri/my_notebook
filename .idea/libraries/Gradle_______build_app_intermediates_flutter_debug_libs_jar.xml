@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: ./../build/app/intermediates/flutter/debug/libs.jar" type="AndroidModuleLibraryType">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/build/app/intermediates/flutter/debug/libs.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>

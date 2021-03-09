@@ -7,6 +7,7 @@
 // ignore_for_file: public_member_api_docs
 
 import 'package:flutter/material.dart';
+// ignore: import_of_legacy_library_into_null_safe
 import 'package:stacked/stacked.dart';
 
 import '../view_models/contact_view_model.dart';
@@ -49,8 +50,8 @@ class StackedRouter extends RouterBase {
       );
       return MaterialPageRoute<dynamic>(
         builder: (context) => ContactDetailView(
-          key: args.key,
-          contactViewModel: args.contact,
+          key: args.key!,
+          contactViewModel: args.contact!,
         ),
         settings: data,
       );
@@ -70,8 +71,8 @@ class StackedRouter extends RouterBase {
 
 /// ContactDetailView arguments holder class
 class ContactDetailViewArguments {
-  final Key key;
-  final ContactViewModel contact;
+  final Key? key;
+  final ContactViewModel? contact;
 
   ContactDetailViewArguments({this.key, this.contact});
 }

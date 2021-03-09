@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:my_notebook/app/app.locator.dart';
 import 'package:my_notebook/view_models/add_contact_view_model.dart';
+// ignore: import_of_legacy_library_into_null_safe
 import 'package:stacked/stacked.dart';
+// ignore: import_of_legacy_library_into_null_safe
 import 'package:stacked_services/stacked_services.dart';
 
 class AddContactView extends StatelessWidget {
@@ -43,21 +45,15 @@ class AddContactView extends StatelessWidget {
               ),
               TextFormField(
                 decoration: InputDecoration(labelText: "Email"),
-                validator: (String value) =>
-                    value.contains('@') ? null : 'Invalid email format',
+                validator: (String? value) => value!.contains('@') ? null : 'Invalid email format',
                 onChanged: (value) => viewModel.email = value,
               ),
             ],
           ),
         ),
-        floatingActionButton: RaisedButton(
-          onPressed: viewModel.canAddContact()
-              ? () async => viewModel.addContact()
-              : null,
+        floatingActionButton: FloatingActionButton(
+          onPressed: viewModel.canAddContact() ? () async => viewModel.addContact() : null,
           child: Text("Save"),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(30.0),
-          ),
         ),
       ),
     );

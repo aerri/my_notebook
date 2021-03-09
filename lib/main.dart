@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:my_notebook/app/app.locator.dart';
 import 'package:my_notebook/app/app.router.dart';
+// ignore: import_of_legacy_library_into_null_safe
 import 'package:stacked_services/stacked_services.dart';
 
-Future main() async {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await setupLocator();
   runApp(MyApp());
 }
@@ -17,7 +19,6 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData.dark(),
       navigatorKey: StackedService.navigatorKey,
       onGenerateRoute: StackedRouter().onGenerateRoute,
-      initialRoute: Routes.homeView,
     );
   }
 }

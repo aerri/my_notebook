@@ -1,33 +1,31 @@
-import 'package:injectable/injectable.dart';
 import 'package:my_notebook/app/app.locator.dart';
 import 'package:my_notebook/app/app.router.dart';
 import 'package:my_notebook/services/database_service.dart';
 import 'package:my_notebook/view_models/contact_view_model.dart';
+// ignore: import_of_legacy_library_into_null_safe
 import 'package:stacked/stacked.dart';
+// ignore: import_of_legacy_library_into_null_safe
 import 'package:stacked_services/stacked_services.dart';
 
-@singleton
 class HomeViewModel extends BaseViewModel {
-  List<ContactViewModel> contacts;
+  late List<ContactViewModel>? _contacts;
   final _navigationService = locator<NavigationService>();
   final _databaseService = locator<DatabaseService>();
 
-  Future initialize() async {
-    if (!initialised) {
-      await _databaseService.initialize();
-      var contactsFromDb = await _databaseService.getContacts();
-      contacts = <ContactViewModel>[];
-      contactsFromDb
-          .forEach((element) => contacts.add(ContactViewModel(element)));
-      setInitialised(true);
-      notifyListeners();
-    }
+  Future<List<ContactViewModel>?> get contacts async {
+    _contacts ??= (await _databaseService.getContacts()).map((contact) => ContactViewModel(contact)).toList();
+    notifyListeners();
+    return _contacts;
   }
 
-  Future onAddButtonTap() async =>
-      _navigationService.navigateTo(Routes.addContactView);
+  Future<void> initialize() async {
+    await _databaseService.initialize();
+    _contacts = (await _databaseService.getContacts()).map((contact) => ContactViewModel(contact)).toList();
+    notifyListeners();
+  }
+
+  Future onAddButtonTap() async => _navigationService.navigateTo(Routes.addContactView);
 
   Future onContactTap(ContactViewModel contactViewModel) async =>
-      _navigationService.navigateTo(Routes.contactDetailView,
-          arguments: ContactDetailViewArguments(contact: contactViewModel));
+      _navigationService.navigateTo(Routes.contactDetailView, arguments: ContactDetailViewArguments(contact: contactViewModel));
 }

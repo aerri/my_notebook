@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: io.flutter:arm64_v8a_debug:1.0.0-042c82b02c83c20e57a67d86a8d3b7677d983556" type="AndroidModuleLibraryType">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.flutter/arm64_v8a_debug/1.0.0-042c82b02c83c20e57a67d86a8d3b7677d983556/1304a3cb1e5d05e97389314c3c9d7b3dfe5422a5/arm64_v8a_debug-1.0.0-042c82b02c83c20e57a67d86a8d3b7677d983556.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

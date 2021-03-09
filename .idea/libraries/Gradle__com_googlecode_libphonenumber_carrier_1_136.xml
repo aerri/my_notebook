@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: com.googlecode.libphonenumber:carrier:1.136" type="AndroidModuleLibraryType">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.libphonenumber/carrier/1.136/471adaf9398172cd0ca5c52f7dcc41357e7742ce/carrier-1.136.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>
