@@ -1,88 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
-  </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="350ec3cf-2eac-4c5b-9184-ca0c36fe2e3c" name="Default Changelist" comment="">
+    <list default="true" id="43d96e5f-16cb-4275-8f27-3645c8124991" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle_______build_app_intermediates_flutter_debug_libs_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle_______build_app_intermediates_flutter_debug_libs_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_libphonenumber_carrier_1_136.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_libphonenumber_carrier_1_136.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_libphonenumber_libphonenumber_8_12_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_libphonenumber_prefixmapper_2_146.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_flutter_arm64_v8a_debug_1_0_0_042c82b02c83c20e57a67d86a8d3b7677d983556.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_flutter_arm64_v8a_debug_1_0_0_2f0af3715217a0c2ada72c717d4ed9178d68f6ed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_flutter_armeabi_v7a_debug_1_0_0_042c82b02c83c20e57a67d86a8d3b7677d983556.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_flutter_armeabi_v7a_debug_1_0_0_2f0af3715217a0c2ada72c717d4ed9178d68f6ed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_flutter_flutter_embedding_debug_1_0_0_042c82b02c83c20e57a67d86a8d3b7677d983556.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_flutter_flutter_embedding_debug_1_0_0_2f0af3715217a0c2ada72c717d4ed9178d68f6ed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_flutter_x86_64_debug_1_0_0_042c82b02c83c20e57a67d86a8d3b7677d983556.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_flutter_x86_64_debug_1_0_0_2f0af3715217a0c2ada72c717d4ed9178d68f6ed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_flutter_x86_debug_1_0_0_042c82b02c83c20e57a67d86a8d3b7677d983556.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_flutter_x86_debug_1_0_0_2f0af3715217a0c2ada72c717d4ed9178d68f6ed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_10_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle_______build_app_intermediates_flutter_debug_libs_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_java8_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_libphonenumber_carrier_1_136.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/$CACHE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/$CACHE_FILE$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__io_flutter_arm64_v8a_debug_1_0_0_2f0af3715217a0c2ada72c717d4ed9178d68f6ed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__io_flutter_armeabi_v7a_debug_1_0_0_2f0af3715217a0c2ada72c717d4ed9178d68f6ed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__io_flutter_flutter_embedding_debug_1_0_0_2f0af3715217a0c2ada72c717d4ed9178d68f6ed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__io_flutter_x86_64_debug_1_0_0_2f0af3715217a0c2ada72c717d4ed9178d68f6ed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__io_flutter_x86_debug_1_0_0_2f0af3715217a0c2ada72c717d4ed9178d68f6ed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/render.experimental.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/render.experimental.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sql/1_create_schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/app.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/app.locator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/app.locator.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/app.router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/app.router.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/address.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/address.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/contact.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/contact.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/services/database_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/database_service.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/view_models/add_contact_view_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/view_models/add_contact_view_model.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/view_models/contact_view_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/view_models/contact_view_model.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/view_models/home_view_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/view_models/home_view_model.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/views/add_contact_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/add_contact_view.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/views/contact_detail_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/contact_detail_view.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/views/home_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/home_view.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/$CACHE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle_______build_app_intermediates_flutter_debug_libs_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_java8_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/render.experimental.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,21 +71,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[L3AXB600X303FZA]" />
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="stateless_widget" />
-        <option value="Dart File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ozuqRwdQtMFmac1OuUEzi6fBW5" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="1pVIl8S24abPWCHRURS4t2Jk68A" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -113,18 +83,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my_application" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.4852768" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Faculdade\Solutions\Android\my_notebook\assets" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
@@ -137,113 +96,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="350ec3cf-2eac-4c5b-9184-ca0c36fe2e3c" name="Default Changelist" comment="" />
-      <created>1614301930348</created>
+      <changelist id="43d96e5f-16cb-4275-8f27-3645c8124991" name="Default Changelist" comment="" />
+      <created>1615261979222</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1614301930348</updated>
+      <updated>1615261979222</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615239403712">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1615239403712" />
-    <state x="411" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615239790189">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="411" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1615239790189" />
-    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614462946775">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1614462946775" />
-    <state x="192" y="28" width="1074" height="690" key="DBNavigator.ProjectSettingsDialog" timestamp="1615243211500">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="192" y="28" width="1074" height="690" key="DBNavigator.ProjectSettingsDialog/0.0.1366.768@0.0.1366.768" timestamp="1615243211500" />
-    <state width="462" height="466" key="DebuggerActiveHint" timestamp="1615257761158">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="462" height="466" key="DebuggerActiveHint/0.0.1366.768@0.0.1366.768" timestamp="1615257761158" />
-    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1615243116777">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1615243116777" />
-    <state x="209" y="71" width="902" height="529" key="GradleDaemons" timestamp="1615215823731">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="209" y="71" width="902" height="529" key="GradleDaemons/0.0.1366.768@0.0.1366.768" timestamp="1615215823731" />
-    <state width="1323" height="205" key="GridCell.Tab.0.bottom" timestamp="1615257847191">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="205" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1615257847191" />
-    <state width="1323" height="205" key="GridCell.Tab.0.center" timestamp="1615257847190">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="205" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1615257847190" />
-    <state width="1323" height="205" key="GridCell.Tab.0.left" timestamp="1615257847190">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="205" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1615257847190" />
-    <state width="1323" height="205" key="GridCell.Tab.0.right" timestamp="1615257847190">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="205" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1615257847190" />
-    <state width="1323" height="205" key="GridCell.Tab.1.bottom" timestamp="1615257847191">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="205" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1615257847191" />
-    <state width="1323" height="205" key="GridCell.Tab.1.center" timestamp="1615257847191">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="205" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1615257847191" />
-    <state width="1323" height="205" key="GridCell.Tab.1.left" timestamp="1615257847191">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="205" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1615257847191" />
-    <state width="1323" height="205" key="GridCell.Tab.1.right" timestamp="1615257847191">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="205" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1615257847191" />
-    <state x="131" y="33" width="1150" height="667" key="IDE.errors.dialog" timestamp="1614447300688">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="131" y="33" width="1150" height="667" key="IDE.errors.dialog/0.0.1366.768@0.0.1366.768" timestamp="1614447300688" />
-    <state x="130" y="6" width="1124" height="729" key="SettingsEditor" timestamp="1615242965490">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="130" y="6" width="1124" height="729" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1615242965490" />
-    <state x="339" y="172" key="run.anything.popup" timestamp="1615241602820">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1615241602820" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1615218690021">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1615218690021" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/services/database_service.dart</url>
-          <line>41</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
